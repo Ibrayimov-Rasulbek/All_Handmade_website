@@ -1,0 +1,78 @@
+{%extends 'base.html'%}
+{% load static %}
+
+
+
+{% block style %}
+<style>
+  body {
+    margin-top: 150px;
+  }
+
+  .about_us_1 {
+    margin: 80px;
+    margin-bottom:450px;
+    border-radius: 40px;
+    background-color: rgb(218, 205, 205);
+    display: flex;
+  }
+
+  .about_us_1 h1 {
+    text-align: center;
+    color: black;
+  }
+
+  .about_us_1 p {
+    text-align: left;
+    width: auto;
+    margin-left: 50px;
+  }
+
+  .p_teg {
+    padding: 40px;
+  }
+
+  @keyframes rotate {
+    0% {
+      transform: rotate(0deg);
+    }
+
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
+  .p_teg img {
+    border-radius: 50%;
+    height: 500px;
+    width: 500px;
+    animation: rotate 12s infinite;
+  }
+</style>
+{% endblock %}
+
+{% block content %}
+<div class="about_us_1" style="padding-bottom: 60px;">
+  <div class="p_teg">
+    <h1>About Us</h1>
+    <p>Elevate your everyday with our exquisite range of bespoke, handmade creations. At All Handmade, we are passionate
+      about crafting unique, one-of-a-kind items that add a touch of luxury and love to every aspect of your life. From
+      the warm glow of our hand-poured candles to the nourishing embrace of our skincare essentials, each product is a
+      masterpiece of artisanal craftsmanship. Explore our collections and experience the beauty of bespoke living. Wax
+      Creations: Indulge in the soothing ambiance of our handmade wax creations. From scented melts to decorative wax
+      ornaments, our selection adds warmth and character to any space.
+      At All Handmade, our story is one of dedication to the art of handmade perfection. Established with a vision to
+      bring elegance and individuality to everyday life, our journey began with a passion for creativity and
+      craftsmanship. We take pride in curating a diverse range of handmade treasures, including wax creations, candles,
+      skincare, personal care, bracelets, and more. What sets us apart is our unwavering commitment to quality and
+      authenticity. Every item we create is a labor of love, reflecting our dedication to your satisfaction. We believe
+      that true luxury lies in the uniqueness of each piece, and we strive to bring that luxury into your daily routine.
+      As a brand rooted in tradition and inspired by innovation, we invite you to explore our world of bespoke
+      creations. Join us in celebrating the beauty of individuality and the joy of owning something truly special.</p>
+
+  </div>
+  <div class="p_teg"><img src="../static/Images/Logo all handmade.webp" alt=""></div>
+</div>
+
+
+{% endblock %}

@@ -1,0 +1,114 @@
+{%block content%}
+{%load static%}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{% static 'css/Contact Us.css'%}">
+    <style>
+        *{
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-sizing: border-box;
+}
+body{
+   overflow-y: hidden;
+}
+img{
+    width: 500px;
+}
+
+.about{
+    width: 100%;
+    padding: 78px 0px;
+    background-color: rgb(10, 13, 72);
+}
+.about img{
+    height: auto;
+    width: 520px;
+}
+.about-text{
+width: 550px;
+}
+
+.main{
+    width: 1130px;
+    height: 800px;
+    max-width: 110%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.about-text h1{
+    color: white;
+    font-size: 80px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    background-image: url("../static/Images/fire11.gif");
+    background-size: cover;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+.about-text h5{
+    color: white;
+    font-size: 25px;
+    text-transform: capitalize;
+    margin-bottom: 25px;
+    letter-spacing: 2px;
+}
+span{
+    color: #03e9f4;
+}
+.about-text p{
+    color: #fcfc;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+}
+button{
+    background:#03e9f4;
+    color: rgb(254, 253, 253);
+    font-size: 15px;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: .4s;
+    -webkit-box-reflect: below 
+            1px linear-gradient(transparent, #0005);
+    box-shadow: 0 0 5px #03e9f4, 0 0 15px #03e9f4, 0 0 25px #03e9f4, 0 0 100px #03e9f4;
+}
+button:hover{
+    background: transparent;
+    border: 2px solid #03e9f4;
+    cursor: pointer;
+}
+
+
+    </style>
+</head>
+<body>
+    <!-- <a style="color: beige; margin: 50px 0 10px 50px;" href="{% url 'home' %}">back</a> -->
+
+    <section class="about">
+        <div class="main">
+         <img src="../static/Images/men.jpg">    
+         <div class="about-text">
+          <h1>Contact Us</h1>
+          <h5>Name:<span> Rasulbek</span></h5>
+          <h5>Last Name:<span> Ibrayimov</span></h5>
+          <h5>Phone Number:<span> +998 93 093 41 11</span></h5>
+          <a href="https://t.me/Rasulbek_11111111"><button type="button">Let's Talk</button></a>
+         </div>
+        </div>
+    </section>
+{%endblock content%}
+</body>
+</html>

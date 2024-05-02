@@ -1,0 +1,34 @@
+{% extends 'base.html' %}
+{%load static%}
+
+{% block style %}
+<style>
+    
+    .natural_img{
+      margin-top: 200px;
+    }
+</style>
+{% endblock %}
+
+
+{% block content%}
+
+  <div class="natural_img">
+    <img src="../static/Images/AllHandmade_1920300_1_1920x (1).webp" alt="">
+  </div>
+  
+  <div class="frame_in_1" style=" display: grid; grid-template-columns: repeat(4,1fr); position: relative; height: auto;">
+    {%for i in products%}
+    <div class="frame" style="margin-bottom: 20px;">
+      <img src="{{i.rasm.url}}">
+      <p>{{i.mahsulot_nomi}}</p>
+      <p style="color: rgb(83, 83, 250);"><b>{{i.mahsulot_narxi}} UZS</b></p>
+    </div>
+    {%endfor%}
+   
+
+  </div>
+
+
+
+{% endblock %}

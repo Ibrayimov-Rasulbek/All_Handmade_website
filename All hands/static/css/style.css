@@ -1,0 +1,285 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+ 
+ }
+ 
+ .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+     --bs-gutter-x: 0;
+     --bs-gutter-y: 0;
+     width: 100%;
+     margin-right: auto;
+     margin-left: auto;
+ }
+ /* .box1{
+    padding-bottom: 110px;
+ }
+ .header{
+    color: white;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    position: fixed;
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+    z-index: 2;
+}
+.header_logo{
+    width: 120px;
+}
+.header_title{
+    color: rgb(245, 241, 241);
+    font-family: sans-serif;
+    
+    
+}
+.nav_link{
+    color:rgb(0, 0, 0);
+    list-style: none;
+    margin: 20px; 
+    font-size: 14px;
+
+}
+.link1{
+    text-decoration: none;
+    
+}
+.header_nav{
+    display: flex;
+    color: white;
+    margin-left:150px ;
+}
+
+.nav_link:hover{
+    color: orange;
+    cursor: pointer;
+}
+.nav_link_item {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+.nav_icon{
+    font-size: 18px;
+    color: black;
+    list-style: none;
+    margin: 20px;
+    margin-left: 50px;
+    cursor: pointer;
+}
+
+.nav_link_item:hover{
+    color: orange;
+    cursor: pointer;
+    font-size: 15px;
+    transform: scale(105%);
+    transition: transform 0.5s ease;
+} */
+.about_img{
+   margin-top: 50px;
+}
+/* Top Categories */
+.top_1{
+    margin: 20px;
+}
+.top_categories{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 400px;
+}
+.top_categories img{
+    width: 300px;
+    border-radius: 20px;
+    transition: transform 0.3s ease;
+    filter: Grayscale(100%);
+}
+
+.top_categories img:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 20px black;
+    filter: Grayscale(0%);
+}
+.top_categories > div{
+    width: 5px;
+    margin: 20px;
+}
+
+
+/* Cards */
+
+.col-4 .card img {
+    cursor: pointer;
+    border-bottom-left-radius: 10px;
+}
+
+/* End of cards */
+
+.product b {
+    margin-left: 80px;
+    font-size: 30px;
+}
+.product .mnn {
+    padding-bottom: 30px;
+}
+.product p {
+    margin:0px 100px 10px 100px;
+    text-align: left;
+    padding: 5px;
+    color: #5a5a5a;
+    font-size: 14px;
+    
+}
+
+.subscribe h1,p{
+    text-align: center;
+    
+}
+.subscribe form{
+    text-align: center;
+    border-radius: 10px;
+}
+
+
+.subscribe form > input{
+    border-radius: 10px;
+    width: 23rem;
+    padding: 5px;
+}
+
+ .container .row{
+    justify-content: space-between;
+    width: 100%;
+ }
+.container .row .col-3 a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    margin-top: 15px;
+}
+.container .row .col-3 a:hover{
+text-decoration: underline;
+}
+.container .row .col-3 p{
+    text-align: left;
+    color: white;
+    text-transform: capitalize;
+}
+
+.container .row .col-3 hr{
+    margin-top: 6rem;
+    transform: rotate(90deg);
+    width: 10rem;
+    border: 2px solid white;
+}
+
+footer {
+    
+    background-color: #517285;
+    padding-top: 1rem;
+    height: 100%;
+    
+}
+.hr {
+    border: 2px solid white;
+}
+.all_handmade_logo{
+    float: right;
+}
+.designed{
+    color: white;
+    text-decoration: none;
+}
+.designed:hover{
+    text-decoration: underline;
+}
+
+.img-class{
+    margin-left: 35px;
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(8,1fr);
+}
+
+.img img{
+    width: 148px;
+    height: 150px;
+    border-radius: 5px;
+}
+.img{
+    width: 150px;
+    height: 220px;
+    border-radius: 5px;
+    border-bottom: 1px solid rgb(211, 211, 211);
+    cursor: pointer;
+}
+.img p{
+    position: relative;
+    margin-top: -130px;
+    color: white;
+    border-radius: 5px;
+    width: 80px;
+    height: 30px;
+    margin-left: 35px;
+    background-color: black;
+    opacity: 0;
+    transition: opacity 1s;
+    font-size: 12px;
+    text-align: center;
+}
+
+/* -------------->
+     End of Footer
+ ----------------*/
+
+
+ /* Natural Skincare  */
+ .natural_img img{
+    width: 85%;
+    margin-left: 120px;
+    z-index: 1;
+ }
+ /* .img_exchange img{
+    width: 200px;
+    height: 200px;
+    transition: transform 0.5s;
+ }
+ .img_exchange:hover img{
+    transform: scale(1.1)
+ } */
+ .frame_in_1{
+    width: 1300px;
+    border-radius: 5px;
+    height: 400px;
+    margin-left: 100px;
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    justify-content: space-between;
+ }
+ .frame{
+    margin-left: 35px;
+    border: 2px solid black;
+
+ }
+ .frame img{
+    width: 100%;
+    border-bottom-left-radius: 80px;
+    border-top-right-radius: 3px;
+    border-top-left-radius: 3px;
+
+ }
+
+ .frame p{
+    margin-top: 10px;
+    font-size: 20px;
+ }
+ .frame:hover{
+    transform: scale(105%);
+    transition: transform 0.5s ease;
+    box-shadow: 0px 0px 10px 10px blue;
+ }
+ 
+
+ 
+
